@@ -40,6 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 4.0'
   s.subspec 'ZYKitComponentView' do |c|
-  c.source_file = 'ZYKit/Classes/ZYKitComponentView/**/*'
-  c.dependency 'AFNetworking', '~> 4.0'
+      c.source_file = 'ZYKit/Classes/ZYKitComponentView/**/*'
+      c.dependency 'AFNetworking', '~> 4.0'
+  
+    end
   end
